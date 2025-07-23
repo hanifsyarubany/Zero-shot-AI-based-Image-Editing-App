@@ -71,7 +71,6 @@ If you use this work, please consider citing the following foundational papers:
   journal      = {arXiv preprint arXiv:2503.06520},
   year         = {2025}
 }
-
 @article{liu2025visionreasoner,
   title        = {VisionReasoner: Unified Visual Perception and Reasoning via Reinforcement Learning},
   author       = {Liu, Yuqi and Qu, Tianyuan and Zhong, Zhisheng and Peng, Bohao and Liu, Shu and Yu, Bei and Jia, Jiaya},
