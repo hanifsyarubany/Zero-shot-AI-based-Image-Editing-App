@@ -75,6 +75,18 @@ uvicorn main:app --port 8080 --reload
 streamlit run frontend.py
 ```
 ---
+## ⚠️ Caution
+
+This project requires **a high-end GPU with at least 48 GB of VRAM** to run all models (e.g., Vision Reasoner, SAM-2, and PrefPaint) efficiently in memory.
+
+If you attempt to run this pipeline on hardware with less VRAM, you may encounter:
+- Out-of-memory (OOM) errors
+- Slow or failed inferences
+- Inability to load large vision-language models
+
+> 🖥️ This setup was tested using an **NVIDIA Quadro RTX 8000 (48GB VRAM)**. Performance may vary on different hardware.
+
+---
 ## 📚 Citation
 If you use this work, please consider citing the following foundational papers:
 ```bibtex
