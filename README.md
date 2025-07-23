@@ -62,6 +62,19 @@ git lfs install
 git clone https://huggingface.co/h94/IP-Adapter
 ```
 ---
+## 🚀 Running the Application
+
+Once you've set up the environment and downloaded the required models, you can launch both the backend and frontend with the following commands:
+
+#### ✅ Run the Backend Server (FastAPI)
+```bash
+uvicorn main:app --port 8080 --reload
+```
+#### ✅ Run the Frontend (Streamlit)
+```bash
+streamlit run frontend.py
+```
+---
 ## 📚 Citation
 If you use this work, please consider citing the following foundational papers:
 ```bibtex
