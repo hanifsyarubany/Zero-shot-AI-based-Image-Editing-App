@@ -51,3 +51,30 @@ pip install -r requirements.txt
 pip install git+https://github.com/tencent-ailab/IP-Adapter.git
 pip install diffusers groq huggingface-hub python-dotenv
 pip install uvicorn fastapi streamlit
+```
+---
+## 📦 IP-Adapter Checkpoints
+The IP-Adapter checkpoints must be downloaded manually:
+```bash
+mkdir IP-Adapter
+cd IP-Adapter
+git lfs install
+git clone https://huggingface.co/h94/IP-Adapter
+```
+Make sure to place the correct path in your code when loading the adapter.
+---
+```bibtex
+@article{liu2025segzero,
+  title        = {Seg-Zero: Reasoning-Chain Guided  Segmentation via Cognitive Reinforcement},
+  author       = {Liu, Yuqi and Peng, Bohao and Zhong, Zhisheng and Yue, Zihao and Lu, Fanbin and Yu, Bei and Jia, Jiaya},
+  journal      = {arXiv preprint arXiv:2503.06520},
+  year         = {2025}
+}
+
+@article{liu2025visionreasoner,
+  title        = {VisionReasoner: Unified Visual Perception and Reasoning via Reinforcement Learning},
+  author       = {Liu, Yuqi and Qu, Tianyuan and Zhong, Zhisheng and Peng, Bohao and Liu, Shu and Yu, Bei and Jia, Jiaya},
+  journal      = {arXiv preprint arXiv:2505.12081},
+  year         = {2025}
+}
+```
