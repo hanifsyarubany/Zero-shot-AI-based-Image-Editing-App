@@ -78,4 +78,16 @@ If you use this work, please consider citing the following foundational papers:
   journal      = {arXiv preprint arXiv:2505.12081},
   year         = {2025}
 }
+@article{liu2024prefpaint,
+  title={PrefPaint: Aligning Image Inpainting Diffusion Model with Human Preference},
+  author={Liu, Kendong and Zhu, Zhiyu and Li, Chuanhao and Liu, Hui and Zeng, Huanqiang and Hou, Junhui},
+  journal={arXiv preprint arXiv:2410.21966},
+  year={2024}
+}
+@article{ye2023ip-adapter,
+  title={IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models},
+  author={Ye, Hu and Zhang, Jun and Liu, Sibo and Han, Xiao and Yang, Wei},
+  booktitle={arXiv preprint arxiv:2308.06721},
+  year={2023}
+}
 ```
