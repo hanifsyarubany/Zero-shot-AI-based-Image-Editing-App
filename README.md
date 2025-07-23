@@ -54,15 +54,16 @@ pip install uvicorn fastapi streamlit
 ```
 ---
 ## 📦 IP-Adapter Checkpoints
-The IP-Adapter checkpoints must be downloaded manually:
+The IP-Adapter checkpoints must be downloaded manually. Make sure to place the correct path in your code when loading the adapter.
 ```bash
 mkdir IP-Adapter
 cd IP-Adapter
 git lfs install
 git clone https://huggingface.co/h94/IP-Adapter
 ```
-Make sure to place the correct path in your code when loading the adapter.
 ---
+## 📚 Citation
+If you use this work, please consider citing the following foundational papers:
 ```bibtex
 @article{liu2025segzero,
   title        = {Seg-Zero: Reasoning-Chain Guided  Segmentation via Cognitive Reinforcement},
