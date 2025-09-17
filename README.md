@@ -1,9 +1,9 @@
-# Towards a Zero-shot Pipeline for AI-based Image Editing Application
+# Towards a Zero-shot Pipeline for AI-based Object Replacement Application
 
-This repository presents the implementation of a **zero-shot image editing pipeline** that combines **multimodal reasoning, segmentation, and generative inpainting**. Inspired by recent advances in multimodal LLMs and vision-language reasoning, the system bridges the gap between prompt understanding and visual manipulation—allowing both **text-guided** and **image-guided** image editing with minimal manual intervention.
+This repository presents the implementation of a **zero-shot object replacement pipeline** that combines **multimodal reasoning, segmentation, and generative inpainting**. Inspired by recent advances in multimodal LLMs and vision-language reasoning, the system bridges the gap between prompt understanding and visual manipulation—allowing both **text-guided** and **image-guided** image editing with minimal manual intervention.
 
 📝 You can read the full article here:  
-👉 [Towards A Zero-shot Pipeline for AI-based Image Editing Application – Medium](https://medium.com/@hanifsarubany10/towards-a-zero-shot-pipeline-for-ai-based-image-editing-application-4c509bc82ff1)
+👉 [Towards A Zero-shot Pipeline for AI-based Object Replacement Application – Medium](https://medium.com/@hanifsarubany10/towards-a-zero-shot-pipeline-for-ai-based-image-editing-application-4c509bc82ff1)
 
 ---
 
